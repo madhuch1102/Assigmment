@@ -83,8 +83,8 @@ export function Countries() {
 
   const viewDetails = (items) => {
     setdetails(items);
-    setOpenModal(true);
     setSelectedRow(items.name);
+    setOpenModal(true);
   };
   const handleClose = () => {
     setOpenModal(false);
